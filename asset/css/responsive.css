@@ -1,0 +1,280 @@
+/* PC */
+@media (min-width:1024px) {
+    .c-0 {
+        display: none;
+    }
+    .c-1 {
+        flex-basis: 8.3333%;
+        max-width: 8.3333%;
+    }
+    .c-2 {
+        flex-basis: 16.6667%;
+        max-width: 16.6667%;
+    }
+    .c-3 {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    .c-4 {
+        flex-basis: 33.3333%;
+        max-width: 33.3333%;
+    }
+    .c-5 {
+        flex-basis: 41.6667%;
+        max-width: 41.6667%;
+    }
+    .c-6 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .c-7 {
+        flex-basis: 58.3333%;
+        max-width: 58.3333%;
+    }
+    .c-8 {
+        flex-basis:66.6667% ;
+        max-width: 66.6667%;
+    }
+    .c-9 {
+        flex-basis: 75%;
+        max-width: 75%;
+    }
+    .c-10 {
+        flex-basis:83.3333% ;
+        max-width: 83.3333%;
+    }
+    .c-11 {
+        flex-basis:91.6667% ;
+        max-width: 91.6667%;
+    }
+    .c-12 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .modaltm {
+        display: none;
+    }
+
+    @keyframes growthModalImg {
+        from {
+            height: 0;
+        }
+        to {
+            height: 90%;
+        }
+    }
+
+}
+
+/* Tablet & Mobile */
+@media (max-width:1023px) {
+    .header-main {
+        margin: unset;
+    }
+
+    .navbar {
+        display: none;
+    }
+    .container {
+        margin: 0;
+    }
+
+    #footer {
+        margin: 0;
+    }
+
+
+    /* Begin modaltm-mobile&tablet */
+    .modaltm {
+        display: none;
+    }
+
+    .modaltm.opentm {
+        display: block;
+    }
+    
+    .modaltm__overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        z-index: 2;
+    }
+    
+    .modaltm__container {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        bottom: 0;
+        width: 200px;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding-left: 16px;
+        z-index: 2;
+        animation: acrossModal ease 0.8s;
+    }
+
+@keyframes acrossModal {
+    from {
+        left: -200px;
+    }
+    to {
+        left: 10px;
+    }
+}
+
+    /* End modal-mobile&tablet */
+
+}
+
+/* Tablet (M)*/
+@media (min-width:740px) and (max-width:1023px) {
+    .m-0 {
+        display: none;
+    }
+    .m-1 {
+        flex-basis: 8.3333%;
+        max-width: 8.3333%;
+    }
+    .m-2 {
+        flex-basis: 16.6667%;
+        max-width: 16.6667%;
+    }
+    .m-3 {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    .m-4 {
+        flex-basis: 33.3333%;
+        max-width: 33.3333%;
+    }
+    .m-5 {
+        flex-basis: 41.6667%;
+        max-width: 41.6667%;
+    }
+    .m-6 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .m-7 {
+        flex-basis: 58.3333%;
+        max-width: 58.3333%;
+    }
+    .m-8 {
+        flex-basis:66.6667% ;
+        max-width: 66.6667%;
+    }
+    .m-9 {
+        flex-basis: 75%;
+        max-width: 75%;
+    }
+    .m-10 {
+        flex-basis:83.3333% ;
+        max-width: 83.3333%;
+    }
+    .m-11 {
+        flex-basis:91.6667% ;
+        max-width: 91.6667%;
+    }
+    .m-12 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .footer__main-list:first-child {
+        text-align: center;
+    }
+}
+
+/* Mobile (S)*/
+@media (max-width:739px) {
+    .s-0 {
+        display: none;
+    }
+    .s-1 {
+        flex-basis: 8.3333%;
+        max-width: 8.3333%;
+    }
+    .s-2 {
+        flex-basis: 16.6667%;
+        max-width: 16.6667%;
+    }
+    .s-3 {
+        flex-basis: 25%;
+        max-width: 25%;
+    }
+    .s-4 {
+        flex-basis: 33.3333%;
+        max-width: 33.3333%;
+    }
+    .s-5 {
+        flex-basis: 41.6667%;
+        max-width: 41.6667%;
+    }
+    .s-6 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .s-7 {
+        flex-basis: 58.3333%;
+        max-width: 58.3333%;
+    }
+    .s-8 {
+        flex-basis:66.6667% ;
+        max-width: 66.6667%;
+    }
+    .s-9 {
+        flex-basis: 75%;
+        max-width: 75%;
+    }
+    .s-10 {
+        flex-basis:83.3333% ;
+        max-width: 83.3333%;
+    }
+    .s-11 {
+        flex-basis:91.6667% ;
+        max-width: 91.6667%;
+    }
+    .s-12 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .bgr-header__container {
+        padding: unset;
+    }
+
+    .header__user {
+        padding: unset;
+    }
+
+    .header__user i {
+        margin: unset;
+    }
+
+    .footer__main {
+        text-align: center;
+    }
+
+    .footer__main-list {
+        margin-bottom: 24px;
+    }
+
+    .container__footer {
+        font-size: 1.5rem;
+    }
+
+    .footer__main {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer__main-item a {
+        width: 100%;
+        display: block;
+    }
+
+
+}
